@@ -66,6 +66,7 @@ static const char unknown_str[] = "n/a";
  */
 static const struct arg args[] = {
 	/* function format          argument turn signal */
+    { run_command, "WG: %s | ", "wg show interfaces", 1, -1 },
     { battery_perc, " %s%%",           "BAT0", 1, -1},
     { battery_state, " %s | ",               "BAT0", 1, -1},
     { wifi_essid, "W: %s | ",           "wlan0", 1, -1},
