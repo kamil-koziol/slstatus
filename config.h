@@ -69,7 +69,7 @@ static const struct arg args[] = {
     { battery_perc, " %s%%",           "BAT0", 1, -1},
     { battery_state, " %s | ",               "BAT0", 1, -1},
     { wifi_essid, "W: %s | ",           "wlan0", 1, -1},
-    { datetime, "%s",           "%F %T", 2, -1},
+    { datetime, "%s",           "%F %T", 1, -1},
 };
 
 /* maximum output string length */
